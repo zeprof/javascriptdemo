@@ -27,3 +27,8 @@ function individualData({firstName, age, hobbies:{hobby1}}){
     console.log(firstName, age, hobby1); //"Susan" 14 "singing"
 }
 individualData(Susan);
+
+const individualData2 = ({firstName, age, hobbies:{hobby1}}) => {
+    console.log(firstName, age, hobby1);
+}
+individualData2(Susan)

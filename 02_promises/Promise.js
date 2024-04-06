@@ -13,3 +13,4 @@ const promise = new Promise((resolve, reject) => {
 //     Pending: by default, this is the Initial State, before the Promise succeeds or fails.
 //     Resolved: Completed Promise
 //     Rejected: Failed Promise
+

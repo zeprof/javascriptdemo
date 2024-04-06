@@ -11,7 +11,7 @@ function addName (time, name){
     })
 }
 
-addName(2000, 'Joel')
+    addName(2000, 'Joel')
     .then(()=>addName(2000, 'Victoria'))
     .then(()=>addName(2000, 'John'))
     .then(()=>addName(2000, 'Doe'))
