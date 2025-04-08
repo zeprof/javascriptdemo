@@ -4,7 +4,7 @@ let carnivorous = ["lion", "wolf", "leopard", "tiger"];
 
 var animals = [pets, carnivorous];
 
-console.log(animals); //[["cat", "dog" , "rabbits"], ["lion", "wolf", "leopard", "tiger"]]
+console.log("1 ", animals); //[["cat", "dog" , "rabbits"], ["lion", "wolf", "leopard", "tiger"]]
 
 
 var animals = [...pets, ...carnivorous];
